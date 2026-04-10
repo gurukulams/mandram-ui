@@ -40,7 +40,7 @@ jobs:
         npm install
         npm run build --if-present
         mkdir dist
-        cp -rf site/public/ dist
+        cp -rf site/public/ dist/
         ls dist
   # Deployment job
     - name: Deploy
