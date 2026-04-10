@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "rollup -c",
+    "build:js": "rollup -c",
+    "build:site": "hugo -s site",
+    "build": "npm-run-all build:js build:site",
     "dev": "npm-run-all --parallel watch:js serve:hugo",
     "watch:js": "rollup -c -w",
     "serve:hugo": "hugo server -s site --bind 0.0.0.0"
