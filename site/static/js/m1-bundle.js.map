@@ -1,0 +1,1 @@
+{"version":3,"file":"m1-bundle.js","sources":["../../../src/js/m1.js"],"sourcesContent":["const message = \"Hello from Module 1\";\nconsole.log(message);\nexport default message;"],"names":[],"mappings":"AAAK,MAAC,OAAO,GAAG;AAChB,OAAO,CAAC,GAAG,CAAC,OAAO,CAAC;;;;"}

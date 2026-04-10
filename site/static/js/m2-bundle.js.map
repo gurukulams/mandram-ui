@@ -1,0 +1,1 @@
+{"version":3,"file":"m2-bundle.js","sources":["../../../src/js/m2.js"],"sourcesContent":["const calculate = (a, b) => a + b;\nconsole.log(\"Sum:\", calculate(5, 10));\nexport default calculate;"],"names":[],"mappings":"AAAK,MAAC,SAAS,GAAG,CAAC,CAAC,EAAE,CAAC,KAAK,CAAC,GAAG;AAChC,OAAO,CAAC,GAAG,CAAC,MAAM,EAAE,SAAS,CAAC,CAAC,EAAE,EAAE,CAAC,CAAC;;;;"}
