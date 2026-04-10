@@ -19,7 +19,6 @@ jobs:
       matrix:
         hugo-version:
           - 'latest'
-          - '0.146.7'
     steps:
     - uses: actions/checkout@v4
 
@@ -40,7 +39,6 @@ jobs:
         export BUILD_PRODUCTION=Y
         npm install
         npm run build --if-present
-        ls site
 
   # Deployment job
     - name: Deploy
