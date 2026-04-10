@@ -38,5 +38,5 @@ jobs:
         username: ${{ secrets.GURUKULAMS_USER }}
         key: ${{ secrets.GURUKULAMS_KEY }}
         target: ${{ secrets.GURUKULAMS_MANDRAM_ROOT }}
-        source: "dist"
+        source: "site/public"
         strip_components: 1
