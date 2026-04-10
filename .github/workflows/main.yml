@@ -48,4 +48,4 @@ jobs:
         key: ${{ secrets.GURUKULAMS_KEY }}
         target: ${{ secrets.GURUKULAMS_MANDRAM_ROOT }}
         source: "site/public"
-        strip_components: 1
+        strip_components: 2
