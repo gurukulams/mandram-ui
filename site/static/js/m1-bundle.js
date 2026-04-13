@@ -1,4 +1,8 @@
-import PracticeMaker from 'practice-js';
+class PracticeMaker {
+	constructor() {
+		console.log('Making Practices');
+	}
+}
 
 new PracticeMaker();
 
