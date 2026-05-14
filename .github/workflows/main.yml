@@ -39,6 +39,7 @@ jobs:
         export BUILD_PRODUCTION=Y
         git submodule add -f https://github.com/gurukulams/design-system site/themes/design-system
         rm site/themes/design-system/package-lock.json
+        npm i --prefix site/themes/design-system/
         npm install
         npm run build --if-present
   # Deployment job
