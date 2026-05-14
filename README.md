@@ -1,2 +1,2 @@
-# mandram-ui
+# Mandram
 Mandram Website
